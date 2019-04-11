@@ -7,6 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.logo {
+	height: 50px;
+}
+
+.logo-small {
+	height: 26px;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -149,12 +157,12 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #ed786a;
+			color: #6ab8ed;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #ed786a;
+				color: #6ab8ed;
 			}
 
 	strong, b {
@@ -344,11 +352,11 @@ input, select, textarea {
 		}
 
 		.row > .col-8 {
-			width: 66.6666666667%;
+			width: 90%;
 		}
 
 		.row > .off-8 {
-			margin-left: 66.6666666667%;
+			margin-left: 90%;
 		}
 
 		.row > .col-9 {
@@ -1617,7 +1625,8 @@ input, select, textarea {
 
 /* Icons */
 
-	ul.icons {
+	ul
+	s {
 		list-style: none;
 		padding-left: 0;
 	}
@@ -1799,7 +1808,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #fd887a;
+			background: #6ab8ed;
 		}
 
 		input[type="button"]:active,
@@ -1852,7 +1861,7 @@ input, select, textarea {
 		font-size: 0.85em;
 		letter-spacing: 2px;
 		padding: 0.25em 1em 0.25em 1em;
-		margin: 0 0 2.5em 0;
+		margin: 0 0 0.2em 0;
 	}
 
 /* Icons */
@@ -1899,7 +1908,7 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #415cd3;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -1952,8 +1961,8 @@ input, select, textarea {
 					display: inline-block;
 					background: #878787;
 					color: #e4e4e4;
-					width: 1.65em;
-					height: 1.65em;
+					width: 2em;
+					height: 2em;
 					border-radius: 1.65em;
 					line-height: 1.65em;
 					text-align: center;
@@ -1981,12 +1990,12 @@ input, select, textarea {
 			}
 
 			#nav > ul > li.active > a:before, #nav > ul > li:hover > a:before {
-				background: #ED786A;
+				background: #6ab8ed;
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span, #nav > ul > li:hover > a > span {
-				color: #ED786A;
+				color: #6ab8ed;
 			}
 
 	.dropotron {
@@ -2053,7 +2062,7 @@ input, select, textarea {
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				color: #ed786a;
+				color: #6ab8ed;
 			}
 
 /* Features */
@@ -2087,7 +2096,7 @@ input, select, textarea {
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 		position: relative;
 		text-transform: uppercase;
-		background: url("../../images/banner.jpg");
+		background: url("../../images/banner.png");
 		background-size: cover;
 		padding: 10em 0;
 	}
@@ -2256,7 +2265,7 @@ input, select, textarea {
 		/* Header */
 
 			#header > .container {
-				padding: 12em 0 5em 0;
+				padding: 12em 0 2em 0;
 			}
 
 			#header h1 {
