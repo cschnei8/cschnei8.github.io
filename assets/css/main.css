@@ -304,7 +304,7 @@ input, select, textarea {
 		}
 
 		.row > .col-2 {
-			width: 16.6666666667%;
+			width: 20%;
 		}
 
 		.row > .off-2 {
@@ -1498,7 +1498,7 @@ input, select, textarea {
 	}
 
 		.image:hover {
-			opacity: 0.9;
+			opacity: 0.6;
 		}
 
 		.image img {
@@ -1533,6 +1533,12 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+
+	.image.profile{
+		width: 100%;
+		margin: 0 0 0 0;
+		border: solid 6px #6ab8ed !important;
+	}
 
 /* List */
 
@@ -1961,8 +1967,8 @@ input, select, textarea {
 					display: inline-block;
 					background: #878787;
 					color: #e4e4e4;
-					width: 2em;
-					height: 2em;
+					width: 1.65em;
+					height: 1.65em;
 					border-radius: 1.65em;
 					line-height: 1.65em;
 					text-align: center;
